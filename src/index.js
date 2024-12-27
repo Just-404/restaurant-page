@@ -1,2 +1,4 @@
 import "./styles.css";
-alert("Functioning!")
+import createMainContent from "./index-module";
+
+createMainContent();
