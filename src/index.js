@@ -1,4 +1,4 @@
 import "./styles.css";
-import createMainContent from "./index-module";
+import createMainContent from "./home";
 
 createMainContent();

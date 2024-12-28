@@ -1,20 +1,12 @@
+import header from "./header";
+
 function createMainContent(){
     const mainDiv = document.querySelector(".content");
-    
-    const headlineDiv = document.createElement("div");
-    headlineDiv.setAttribute("id", "headline-content");
-
-    const headLineText = document.createElement("h1");
-    headLineText.innerText = "La Equinita\' Restaurant";
-
-    const headLineImg = document.createElement("img");
-
-    const p = document.createElement("p");
-    p.innerText = `La Equinita Restaurant is your best choice when it comes to dominican food. We got a wide variety of dishes that
+    const text = `La Equinita Restaurant is your best choice when it comes to dominican food. We got a wide variety of dishes that
     go from our excellent breakfast course of mangu or our famous yaroa La Grande`;
 
-    headlineDiv.append(headLineText, headLineImg, p);
-
+    const headerDiv = header("La Equinita\' Restaurant", text, true);
+        
     const locationDiv = document.createElement("div");
     const p2 = document.createElement("p")
     p2.innerText = "We are located at XXXX XXXX, XXXX";
@@ -26,7 +18,7 @@ function createMainContent(){
     Sun: 4:00 - 11:00 pm`;
     scheduleDiv.appendChild(p3);
 
-    mainDiv.append(headlineDiv, scheduleDiv , locationDiv);
+    mainDiv.append(headerDiv, scheduleDiv , locationDiv);
 }
 
 export default createMainContent;
