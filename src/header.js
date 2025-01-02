@@ -1,4 +1,4 @@
-const header = function(title, text, value){
+const header = function(title, text = "", value = false){
         
     const headlineDiv = document.createElement("div");
     headlineDiv.setAttribute("id", "headline-content");
