@@ -1,4 +1,5 @@
 import header from "./header";
+import domRepFlag from "./assets/domRepFlag.jpg";
 
 function createMainContent(){
     const mainDiv = document.querySelector(".content");
@@ -6,7 +7,7 @@ function createMainContent(){
     go from our excellent breakfast course of mangu or our famous yaroa La Grande`;
 
     const headerDiv = header("La Equinita\' Restaurant", text, true);
-        
+    
     const locationDiv = document.createElement("div");
     const p2 = document.createElement("p")
     p2.innerText = "We are located at XXXX XXXX, XXXX";
@@ -19,6 +20,10 @@ function createMainContent(){
     scheduleDiv.appendChild(p3);
 
     mainDiv.append(headerDiv, scheduleDiv , locationDiv);
+
+    const headerImg = document.getElementsByTagName("img")[0];
+    headerImg.src = domRepFlag;
+    headerImg.title = "Image by David from Pixabay";
 }
 
 export default createMainContent;

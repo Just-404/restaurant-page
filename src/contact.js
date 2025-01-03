@@ -1,4 +1,5 @@
 import header from "./header";
+import locationImage from "./assets/location.jpg";
 
 export default function createContact(){
     const mainDiv = document.querySelector(".content");
@@ -24,7 +25,8 @@ export default function createContact(){
     locationHeadline.innerText = "Visit us on site for more info!";
 
     const locationImg = document.createElement("img");
-    locationImg.setAttribute("src", "");
+    locationImg.src = locationImage;
+    locationImg.title = "From Posters.es";
 
     mainDiv.append(div, locationHeadline, locationImg);
 
