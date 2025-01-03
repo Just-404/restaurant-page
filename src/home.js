@@ -3,8 +3,7 @@ import domRepFlag from "./assets/domRepFlag.jpg";
 
 function createMainContent(){
     const mainDiv = document.querySelector(".content");
-    const text = `La Equinita Restaurant is your best choice when it comes to dominican food. We got a wide variety of dishes that
-    go from our excellent breakfast course of mangu or our famous yaroa La Grande`;
+    const text = `La Equinita Restaurant is your best choice when it comes to dominican food. We got a wide variety of dishes that go from our excellent breakfast course of mangu or our famous yaroa La Grande`;
 
     const headerDiv = header("La Equinita\' Restaurant", text, true);
     

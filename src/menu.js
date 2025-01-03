@@ -37,8 +37,7 @@ const createNodes = function(){
     drinksTitle.innerText = "Beverages";
 
     const presidenteBeer = createFood("drink", "Presidente Beer", "$ 2.5", beerImg, 
-        `One of the most popular beverages in the Dominican Republic. Beer Presidente will let you experience
-        the tropical and refreshing experience you would expect from the Caribbean Island.`
+        `One of the most popular beverages in the Dominican Republic. Beer Presidente will let you experience the tropical and refreshing experience you would expect from the Caribbean Island.`
     );
     
         
@@ -57,13 +56,11 @@ const createNodes = function(){
     foodTitle.innerText = "Dishes";
 
     const theFlag = createFood("food", "The dominican flag", "$ 20.0", theFlagImg, 
-        `The representative dish of the Dominican Republic, the flag, brings the most typical ingredients of the dominican cuisine
-         to make this delicious dish.`
+        `The representative dish of the Dominican Republic, the flag, brings the most typical ingredients of the dominican cuisine to make this delicious dish.`
     );
     
     const yaroa = createFood("food", "Yaroa", "$ 25.0", yaroaImg, 
-        `Wanna taste the joy of night? Then Yaroa must be your choice. This dish is made with fries, grinded chicken, cheese 
-        mixed in a sauce of ketchup and mayonnaise.`
+        `Wanna taste the joy of night? Then Yaroa must be your choice. This dish is made with fries, grinded chicken, cheese mixed in a sauce of ketchup and mayonnaise.`
     );
 
     const friedChicken = createFood("food", "Fried Chicken", "$ 22.00", friedChickenImg, 
